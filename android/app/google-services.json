@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "676856887768",
+    "project_id": "joves-lectors",
+    "storage_bucket": "joves-lectors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676856887768:android:255a27ade255f34a3c1aad",
+        "android_client_info": {
+          "package_name": "com.joves_lectors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676856887768-o7bgqevpgp9svlrohdudheue30l4m4tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joves_lectors",
+            "certificate_hash": "73067f69262640778d6311d6aa953d0e05b29c07"
+          }
+        },
+        {
+          "client_id": "676856887768-bhuqfiumjtr9j4n8r1vmv9uad3i9njdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFzxYezMPV4eaBGKUbRVZAsc95Mq0F1bE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676856887768-bhuqfiumjtr9j4n8r1vmv9uad3i9njdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
