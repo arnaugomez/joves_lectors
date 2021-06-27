@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754261688029",
+    "project_id": "joves-lectors-f6ece",
+    "storage_bucket": "joves-lectors-f6ece.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754261688029:android:12d32248c4c73046d16534",
+        "android_client_info": {
+          "package_name": "com.joves_lectors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754261688029-6v5baor4i3fip3h5p5uak75solh34p8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU-PRKhwG7doJDS3axwPlNkELc4ZdVK9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754261688029-6v5baor4i3fip3h5p5uak75solh34p8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
