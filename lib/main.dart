@@ -16,12 +16,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
 
-  @override
-  void initState() {
-    super.initState();
-
-    FirebaseMessaging.instance.getInitialMessage();
-
+  Future<void> initFirebaseMessaging() async {
+    print(await FirebaseMessaging.instance.getInitialMessage());
     FirebaseMessaging.onMessage.listen((message) {
       if(message.notification != null) {
         print(message.notification.body);
@@ -31,9 +27,17 @@ class _MyAppState extends State<MyApp> {
   }
 
   @override
+  void initState() {
+    super.initState();
+    print(FirebaseMessaging.instance.pluginConstants);
+    print(FirebaseMessaging.instance.isSupported());
+    initFirebaseMessaging();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: WebViewContainer("https://jornades.joveslectors.cat"),
+      home: Text("Hello")//WebViewContainer("https://jornades.joveslectors.cat"),
     );
   }
 }
